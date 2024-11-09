@@ -1,0 +1,24 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5vh;
+    width: 100%;
+}
+
+select {
+    margin: 10px;
+}
+
+.countries {
+    width: 30vw;
+}
+
+.states {
+    width: 15vw;
+}
+
+.cities {
+    width: 15vw;
+}
