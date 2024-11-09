@@ -115,7 +115,7 @@ export default function App() {
             {cities.length ? (cities.map((city, idx) => <option value={city} key={idx}>{city}</option>)) : null}
           </select>
         </div>
-        {showText ? <h3>You Selected {location.city}, {location.state}, {location.country}</h3> : null}
+        {showText ? <h3>You selected {location.city}, {location.state}, {location.country}</h3> : null}
       </div>
     </>
   )
